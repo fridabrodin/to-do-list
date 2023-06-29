@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer type="text/javascript" src="script/index.js"></script>
+    <title>To-do list</title>
+    <meta name="description" content="A simple to do list" />
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div id="form-container">
+
+            <h1>Your daily to-do list</h1>
+            <p>Create your own to-do list by simply adding tasks in the field below.</p>
+
+            <form id="task-adder">
+                <div class="input-container">
+                    <input type="text" id="user-task" required>
+                    <span id="user-task-confirmation">Task added to your list!</span>
+                </div>
+
+                <div id="submit-button">
+                    <button type="submit">Add task</button>
+                </div>
+            </form>
+
+        </div>
+
+
+        <!-- <div class="to-do-list__edit">Edit</div> -->
+        <div class="to-do-list">
+            <div class="to-do-list__logo">
+                <img src="images/logo.png" />
+            </div>
+
+            <div id="to-do-list__items">
+
+                <div id="to-do-list__items-empty">Please add tasks to your to-do list...</div>
+            
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
